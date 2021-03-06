@@ -19,13 +19,18 @@
 <body>
   <div class="section-2">
     <div class="container w-container"><img src="images/picapica-logo-white.svg" loading="lazy" width="254" alt="" class="image">
-      <p class="paragraph-2">Hi.Beautiful everyday solid silver jewellery, handcrafted in South Wales by Rachael Kellett.</p>
+      <p class="paragraph-2">Beautiful everyday solid silver jewellery, handcrafted in South Wales by Rachael Kellett.</p>
     </div>
     <div class="container-3">
       <div class="div-block alt">
         <div class="text-block">Feel free to contact me.</div>
         <div data-netlify="true" class="w-form">
-          <form id="wf-form-Contact" name="wf-form-Contact" data-name="Contact" method="post" redirect="/success" data-redirect="/success" action="/success"><input type="text" class="form-input w-input" maxlength="256" name="name" data-name="Name" placeholder="Your Name" id="name" required=""><input type="email" class="form-input w-input" maxlength="256" name="Email-Address" data-name="Email Address" placeholder="Email Address" id="Email-Address" required=""><input type="tel" class="form-input w-input" maxlength="256" name="Contact-Number" data-name="Contact Number" placeholder="Contact Number" id="Contact-Number" required=""><textarea placeholder="Your message..." maxlength="5000" id="Message" name="Message" data-name="Message" class="form-input text-area w-input"></textarea><input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form>
+          <form name="contact" method="POST" data-netlify="true" action="/success">
+            <input type="text" class="form-input w-input" maxlength="256" name="name" data-name="Name" placeholder="Your Name" id="name" required="">
+            <input type="email" class="form-input w-input" maxlength="256" name="Email-Address" data-name="Email Address" placeholder="Email Address" id="Email-Address" required="">
+            <input type="tel" class="form-input w-input" maxlength="256" name="Contact-Number" data-name="Contact Number" placeholder="Contact Number" id="Contact-Number" required="">
+            <textarea placeholder="Your message..." maxlength="5000" id="Message" name="Message" data-name="Message" class="form-input text-area w-input"></textarea>
+            <input type="submit" value="Submit" data-wait="Please wait..." class="submit-button w-button"></form>
           <div class="w-form-done">
             <div>Thank you! Your submission has been received!</div>
           </div>
