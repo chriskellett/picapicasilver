@@ -836,6 +836,7 @@ a {
 
 .image-6 {
   max-width: 40%;
+  min-width: 300px;
   margin-top: 40px;
   margin-right: 30px;
   padding-right: 30px;
@@ -1314,6 +1315,10 @@ a {
     padding-left: 25px;
   }
 
+  .image-6 {
+    padding-right: 0px;
+  }
+
   .wide-container {
     margin-top: -60px;
     padding-top: 102px;
@@ -1510,32 +1515,44 @@ a {
 
   .div-block-9 {
     margin-top: 15%;
-    padding-top: 125px;
+    padding-top: 0px;
     padding-bottom: 20px;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-    -webkit-flex-direction: row-reverse;
-    -ms-flex-direction: row-reverse;
-    flex-direction: row-reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 
   .image-6 {
-    max-width: 50%;
-    margin-top: -20px;
+    max-width: 80%;
+    min-width: auto;
+    margin-top: 20px;
+    margin-right: 0px;
+    padding-right: 0px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+    text-align: center;
   }
 
   .div-block-10 {
     margin-left: 20px;
-    text-align: left;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    text-align: center;
   }
 
   .wide-container {
-    margin-top: -50px;
-    padding-top: 80px;
+    margin-top: -75px;
+    padding-top: 311px;
   }
 
   .div-block-12 {
@@ -1568,6 +1585,10 @@ a {
   .shop-info-grid {
     padding-right: 30px;
     padding-left: 30px;
+  }
+
+  .paragraph-5 {
+    max-width: 55ch;
   }
 }
 
@@ -1699,6 +1720,7 @@ a {
 
   .image-6 {
     max-width: 100%;
+    margin-top: 0px;
   }
 
   .div-block-10 {
@@ -1708,8 +1730,8 @@ a {
   }
 
   .wide-container {
-    margin-top: -90px;
-    padding-top: 191px;
+    margin-top: -49px;
+    padding-top: 360px;
   }
 
   .div-block-11 {
